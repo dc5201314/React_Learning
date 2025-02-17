@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>任务列表</title>
+    <style>
+      .completed {
+        color: green;
+      }
+      .not-completed {
+        color: red;
+      }
+      .item {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script crossorigin src="./lib/react.js"></script>
+    <script crossorigin src="./lib//react-dom.js"></script>
+    <script src="./lib/babel.js"></script>
+
+    <script type="text/babel">
+      const taskList = [
+        { id: 1, name: "吃饭", completed: true },
+        { id: 2, name: "睡觉", completed: false },
+        { id: 3, name: "敲代码", completed: false },
+      ];
+
+      function TaskList() {
+        // 计算未完成的任务数
+        const incompleteTasksCount = taskList.filter(
+          (task) => !task.completed
+        ).length;
+
+        // 渲染任务列表
+        return (
+          <div>
+            <h2>当前未完成的任务数: {incompleteTasksCount}</h2>
+            <div className="item">
+              {taskList.map((task) => (
+                <div className="item" key={task.id}>
+                  <span
+                    className={task.completed ? "completed" : "not-completed"}
+                  >
+                    {task.name}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+      }
+
+      ReactDOM.render(<TaskList />, document.getElementById("root"));
+    </script>
+  </body>
+</html>

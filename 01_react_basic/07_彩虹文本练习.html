@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- CDN引入，依赖三个包：react、react-dom、babel -->
+    <script crossorigin src="./lib/react.js"></script>
+    <script crossorigin src="./lib//react-dom.js"></script>
+    <script src="./lib/babel.js"></script>
+
+    <script type="text/babel">
+      function App() {
+        const [clickCount, setClickCount] = React.useState(0);
+        const colors = [
+          "red",
+          "orange",
+          "yellow",
+          "green",
+          "blue",
+          "indigo",
+          "violet",
+        ];
+        const textColor = colors[clickCount % colors.length];
+
+        return (
+          <div>
+            <div style={{ fontSize: "24px", color: textColor }}>
+              你已经点击了 {clickCount} 次
+            </div>
+            <button onClick={() => setClickCount(clickCount + 1)} style={{}}>
+              点击我 🌈
+            </button>
+            {clickCount > 10 && (
+              <div
+                style={{ marginTop: "20px", fontSize: "20px", color: "green" }}
+              >
+                成就达成！你已经点击超过 10 次解锁成就彩虹达人！
+              </div>
+            )}
+          </div>
+        );
+      }
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<App />);
+    </script>
+  </body>
+</html>

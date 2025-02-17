@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSX 列表渲染</title>
+  </head>
+  <body>
+    <style>
+      .item {
+        margin-bottom: 10px;
+      }
+    </style>
+
+    <div id="root"></div>
+    <script crossorigin src="./lib/react.js"></script>
+    <script crossorigin src="./lib/react-dom.js"></script>
+    <script src="./lib/babel.js"></script>
+
+    <script type="text/babel">
+      const students = [
+        { id: 1, name: "张三 1", score: 99 },
+        { id: 2, name: "张三丰 2", score: 99 },
+        { id: 3, name: "张三锋", score: 80 },
+        { id: 13, name: "张三锋", score: 99 },
+      ];
+
+      const element = (
+        <div className="item">
+          <h2>学生列表数据</h2>
+          <div className="item">
+            {students
+              .filter((item) => item.score > 90)
+              .map((item) => {
+                return (
+                  <div className="item" key={item.id}>
+                    <h2>{item.id}</h2>
+                    <h2>{item.name}</h2>
+                    <h3>{item.score}</h3>
+                  </div>
+                );
+              })}
+          </div>
+        </div>
+      );
+      const root = ReactDOM.createRoot(document.querySelector("#root"));
+      ReactDOM.render(element, document.getElementById("root"));
+    </script>
+  </body>
+</html>
