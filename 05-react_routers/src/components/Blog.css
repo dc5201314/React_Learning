@@ -1,0 +1,123 @@
+/* Blog.css */
+
+/* 容器样式 */
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 博客列表标题 */
+.blog-list-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 清单样式 */
+.blog-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* 博客项样式 */
+.blog-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 博客标题样式 */
+.blog-title {
+  margin: 0 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* 博客图片样式 */
+.blog-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* 博客信息样式 */
+.blog-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* 博客详情容器 */
+.blog-detail-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 博客详情标题 */
+.blog-detail-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* 博客详情图片样式 */
+.blog-detail-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* 博客详情信息样式 */
+.blog-detail-info {
+  font-style: italic;
+  color: #777;
+}
+/* Blog.css 添加分页样式 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #007bff;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #282c34;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #61dafb; /* 增加一个下划线指示活动状态 */
+}
+
+.user-info {
+  color: white;
+}
