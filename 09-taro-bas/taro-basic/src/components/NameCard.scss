@@ -1,0 +1,29 @@
+/* NameCard.scss */
+.card {
+  padding: 16px; // 添加内边距
+  background-color: #f9f9f9; // 可以更改背景颜色
+  border-radius: 8px; // 可选，添加圆角效果
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // 可选，添加阴影效果
+}
+
+.avatar {
+  width: 100px; // 设定头像宽度
+  height: 100px; // 设定头像高度
+  border-radius: 50%; // 使头像为圆形
+  margin-bottom: 16px; // 头像与下方文本之间的间距
+}
+
+.info-line {
+  margin-bottom: 8px; // 每个信息行之间的间距
+  width: 100%; // 确保信息行占据整个宽度
+  text-align: left; // 文本对齐方式
+}
+
+.name,
+.position,
+.company,
+.contact,
+.email {
+  font-size: 16px; // 字体大小
+  color: #333; // 字体颜色
+}

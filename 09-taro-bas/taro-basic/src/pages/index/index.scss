@@ -1,0 +1,62 @@
+/* src/pages/index/index.scss */
+.index {
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.form {
+  margin-bottom: 20px;
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .form-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+
+  Input {
+    margin-bottom: 12px;
+  }
+
+  Button {
+    margin-right: 8px;
+    margin-top: 12px;
+  }
+}
+
+.card-section {
+  margin-top: 20px;
+}
+
+.card {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .position,
+  .company,
+  .contact,
+  .email {
+    font-size: 14px;
+    color: #666;
+  }
+}

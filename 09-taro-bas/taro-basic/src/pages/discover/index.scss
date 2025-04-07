@@ -1,0 +1,19 @@
+.discover-container {
+  padding: 20px;
+  background-color: #f5f5f5; // 页面背景色
+  min-height: 100vh; // 确保页面至少填满整个视口
+
+  .card {
+    margin: 20px 0; // 卡片的上下间距
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: column; // 按钮垂直排列
+    gap: 10px; // 按钮之间的间距
+  }
+
+  .button {
+    width: 100%; // 按钮宽度充满
+  }
+}

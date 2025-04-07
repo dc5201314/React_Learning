@@ -1,0 +1,94 @@
+{
+  "posts": [
+    {
+      "title": "第二篇文章",
+      "body": "这是第二篇文章的内容随时水水水水水水",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "前端工程化之模块化开发",
+      "body": "模块化开发是前端工程化的重要组成部分，它可以提高代码的可维护性和复用性。通过将代码拆分成多个模块，可以更好地组织代码结构。",
+      "image": "https://images.pexels.com/photos/123456/pexels-photo-123456.jpeg",
+      "author": "张三",
+      "date": "2024-01-01"
+    },
+    {
+      "id": "4",
+      "title": "前端工程化之自动化构建",
+      "body": "自动化构建工具可以帮助我们自动完成代码的编译、压缩、合并等任务，提高开发效率。例如，使用Webpack可以对项目进行打包。",
+      "image": "https://images.pexels.com/photos/234567/pexels-photo-234567.jpeg",
+      "author": "李四",
+      "date": "2024-01-02"
+    },
+    {
+      "id": "5",
+      "title": "前端工程化之版本控制",
+      "body": "版本控制是前端工程化中不可或缺的一环，它可以帮助我们记录代码的变更历史，方便团队协作。常用的版本控制工具是Git。",
+      "image": "https://images.pexels.com/photos/345678/pexels-photo-345678.jpeg",
+      "author": "王五",
+      "date": "2024-01-03"
+    },
+    {
+      "id": "6",
+      "title": "前端工程化之代码规范",
+      "body": "统一的代码规范可以提高代码的可读性和可维护性，减少团队成员之间的沟通成本。例如，使用ESLint可以对代码进行静态检查。",
+      "image": "https://images.pexels.com/photos/456789/pexels-photo-456789.jpeg",
+      "author": "赵六",
+      "date": "2024-01-04"
+    },
+    {
+      "id": "7",
+      "title": "前端工程化之测试驱动开发",
+      "body": "测试驱动开发是一种软件开发方法论，它强调在编写代码之前先编写测试用例。这样可以确保代码的质量和可维护性。",
+      "image": "https://images.pexels.com/photos/567890/pexels-photo-567890.jpeg",
+      "author": "孙七",
+      "date": "2024-01-05"
+    },
+    {
+      "id": "8",
+      "title": "前端工程化之性能优化",
+      "body": "性能优化是前端工程化的重要目标之一，它可以提高网站的加载速度和用户体验。例如，压缩图片、合并文件等。",
+      "image": "https://images.pexels.com/photos/678901/pexels-photo-678901.jpeg",
+      "author": "周八",
+      "date": "2024-01-06"
+    },
+    {
+      "id": "9",
+      "title": "前端工程化之持续集成与持续部署",
+      "body": "持续集成与持续部署可以实现代码的自动化集成和部署，提高开发效率和质量。例如，使用Jenkins可以搭建CI/CD流程。",
+      "image": "https://images.pexels.com/photos/789012/pexels-photo-789012.jpeg",
+      "author": "吴九",
+      "date": "2024-01-07"
+    },
+    {
+      "id": "10",
+      "title": "前端工程化之微前端架构",
+      "body": "微前端架构是一种将前端应用拆分成多个小型、自治的前端应用的架构模式。它可以提高团队的开发效率和代码的可维护性。",
+      "image": "https://images.pexels.com/photos/890123/pexels-photo-890123.jpeg",
+      "author": "郑十",
+      "date": "2024-01-08"
+    },
+    {
+      "id": "11",
+      "title": "前端工程化之容器化部署",
+      "body": "容器化部署可以将应用程序及其依赖项打包成一个独立的容器，实现应用的快速部署和迁移。例如，使用Docker可以进行容器化部署。",
+      "image": "https://images.pexels.com/photos/901234/pexels-photo-901234.jpeg",
+      "author": "王十一",
+      "date": "2024-01-09"
+    },
+    {
+      "id": "12",
+      "title": "前端工程化之监控与日志",
+      "body": "监控与日志可以帮助我们实时了解应用的运行状态和性能指标，及时发现和解决问题。例如，使用Prometheus和Grafana可以进行监控和可视化。",
+      "image": "https://images.pexels.com/photos/1012345/pexels-photo-1012345.jpeg",
+      "author": "李十二",
+      "date": "2024-01-10"
+    },
+    {
+      "id": "9d28",
+      "title": "新建",
+      "body": "新建"
+    }
+  ]
+}

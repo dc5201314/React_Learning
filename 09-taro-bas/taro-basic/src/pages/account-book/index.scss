@@ -1,0 +1,13 @@
+/* src/pages/account-book/index.scss */
+.account-book {
+  padding: 20px;
+  background-color: #f5f5f5; /* 页面背景色 */
+
+  .type-select {
+    margin: 15px 0; /* 收入支出按钮的上下间距 */
+  }
+
+  .at-card {
+    margin-bottom: 20px; /* 卡片之间的间距 */
+  }
+}
